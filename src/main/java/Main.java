@@ -6,11 +6,11 @@ import java.io.FileNotFoundException;
  * Main class
  */
 public class Main {
-    private static String fileName = "C:\\Users\\Storm\\Desktop\\1.txt";
+    //private static String fileName = "C:\\Users\\Storm\\Desktop\\1.txt";
 
     public static void main(String[] args) throws FileNotFoundException {
 
-      //  String fileName = args[0];
+        String fileName = args[0];
 
         //Запишем в массив данные из файла
         int[][] mass = GetDoubleArray.getDoubleArray(ReadingFile.read(fileName));
